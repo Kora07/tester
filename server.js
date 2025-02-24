@@ -10,7 +10,7 @@ require("dotenv").config({
 });
 
 const port = process.env.PORT || 3000;
-const databaseLink = process.env.URL || "mongodb+srv://testerMan:testerMan21@project0.77flw.mongodb.net/?retryWrites=true&w=majority&appName=Project0";
+const databaseLink = process.env.URL;
 
 app.listen(port, async () => {
     try {
